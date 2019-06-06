@@ -26,7 +26,10 @@ const routes: Routes = [
   path: 'gabinete',
   component: GabineteComponent
 },
-
+{
+   path: 'memoria',
+   component: MemoriaComponent
+},
 {
 path: 'pg-inicio',
 component: PgInicioComponent
