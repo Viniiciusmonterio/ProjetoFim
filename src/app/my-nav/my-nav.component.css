@@ -9,7 +9,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .sidenav .mat-toolbar {
@@ -17,9 +17,10 @@ a {
   overflow-x: hidden;
   background: linear-gradient(blue);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
+  font-size: 100px;
   overflow-y: hidden; 
 }
+
 
 .mat-toolbar.mat-primary {
   position: sticky;
@@ -27,15 +28,16 @@ a {
   z-index: 1;
   background: linear-gradient(to right, black, blue);
 }
+
 #carrinho{
   position:relative;
   top:-2px;
-  left:104px;
+  left:-40px;
 }
 #login{
   position: relative;
   top: -2px;
-  left:309px;
+  left:160px;
 }
 #search{
   position: relative;
@@ -49,11 +51,7 @@ a {
   top: -2px;
   left:20px;
 }
-#desejos{
-  position:relative;
-  top:-2px;
-  left:-124px;
-}
+
 #logo{
   float: right;
   border-radius: 62px;

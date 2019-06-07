@@ -12,12 +12,12 @@
       [opened]="!(isHandset$ | async)">
     <mat-toolbar><div><a [href]="['/pg-inicio']"><img src="assets\img\compra-online-1.png" id="logo"></a></div> </mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item [routerLink] ="['/memoria']">Memória ram</a>
-      <a mat-list-item [routerLink] ="['/pla-video']">Placa de video</a>
-      <a mat-list-item [routerLink] ="['/pla-mae']">Placa mãe</a>
-      <a mat-list-item [routerLink] ="['/gabinete']">Gabinetes</a>
-      <a mat-list-item [routerLink] ="['/monitor']">Monitores</a>
-      <a mat-list-item [routerLink] ="['/processador']">Processadores</a>
+      <a mat-list-item [routerLink] ="['/memoria']"><b style=color:white>Memória ram</b></a>
+      <a mat-list-item [routerLink] ="['/pla-video']"><b style=color:white>Placa de video</b></a>
+      <a mat-list-item [routerLink] ="['/pla-mae']"><b style=color:white>Placa mãe</b></a>
+      <a mat-list-item [routerLink] ="['/gabinete']"><b style=color:white>Gabinetes</b></a>
+      <a mat-list-item [routerLink] ="['/monitor']"><b style=color:white>Monitores</b></a>
+      <a mat-list-item [routerLink] ="['/processador']"><b style=color:white>Processadores</b></a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -38,7 +38,6 @@
       <div>
        <a class="waves-effect waves-light btn" id="login"><a [routerLink] = "['/login']"><i class="material-icons right">person_pin</i>Login</a></a>
        <a class="waves-effect waves-light btn" id="carrinho"><a [routerLink] ="['/carrinho']"><i class="material-icons right">local_grocery_store</i>Carrinho</a></a>
-       <a class="waves-effect waves-light btn" id="desejos"><a [routerLink] ="['/desejos']"><i class="material-icons right">favorite_border</i>Desejos</a></a>
     </div>
     </mat-toolbar>
     <div>
